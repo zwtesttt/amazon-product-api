@@ -95,6 +95,11 @@ require('yargs')
             type: 'boolean',
             describe: 'Scrape only products with the discount',
         },
+        filename: {
+            default: '',
+            type: 'string',
+            describe: 'Name of the output file',
+        },
         sponsored: {
             default: false,
             type: 'boolean',
